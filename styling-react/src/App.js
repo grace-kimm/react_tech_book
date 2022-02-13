@@ -1,8 +1,12 @@
 import "./App.css";
-import SassComponent from "./SassComponent";
+import StyledComponent from "./StyledComponent";
 
 function App() {
-  return <SassComponent />;
+  return (
+    <div>
+      <StyledComponent />
+    </div>
+  )
 }
 
 export default App;
